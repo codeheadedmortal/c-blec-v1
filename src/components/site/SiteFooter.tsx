@@ -348,19 +348,20 @@ export function SiteFooter() {
           display: inline-flex;
           align-items: center;
           gap: 8px;
-          padding: 8px 14px;
-          border: 1px solid rgba(255,255,255,0.2);
-          border-radius: 999px !important;
-          background: rgba(255,255,255,0.03);
+          padding: 0;
+          border: none;
+          border-radius: 0;
+          background: none;
           color: rgba(255,255,255,0.78);
           font-family: "DM Sans", sans-serif;
           font-size: 10px;
           font-weight: 500;
           letter-spacing: 0.18em;
           text-transform: uppercase;
-          backdrop-filter: blur(14px);
-          -webkit-backdrop-filter: blur(14px);
-          box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 0 18px rgba(212,175,55,0.08);
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+          box-shadow: none;
+          text-shadow: 0 0 8px rgba(212,175,55,0.2);
         }
 
         @keyframes footerPulse {
